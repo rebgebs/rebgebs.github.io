@@ -1,0 +1,53 @@
+body {
+    background-color: #c0e2eb;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;  
+        
+}
+header{
+    background:#d69f1e;
+}
+section {
+    margin: 1.5rem auto;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 40px 0 #6abed4;
+}
+h1{
+    font-size: 3rem;
+    border-bottom:5px solid black;
+margin-bottom: -1.4rem;
+}
+h2{
+    background:#6abed4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+h3{
+    height:5rem;
+}
+h1, h3 {
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+margin: 2rem;
+text-align: justify;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 2rem;    
+    padding: 2rem;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: 0 0 40px 0 black;
+}
