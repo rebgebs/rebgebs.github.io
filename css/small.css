@@ -32,11 +32,13 @@ header, footer {
     text-align: center;
     padding: 1.5rem;
 }
-
+footer a:visited {
+    color: lightgrey;
+  }
 
 footer p {
     font-size: 12px;
-    color: pink;
+    color: white;
     text-align: center;
 
 }
