@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up to weather - Preston weather and activity information</title>
+    <meta name="Wake Up To Weather - Preston, ID"
+        content="Wake up to weather- weather forcast for precipitation, wind, cloud cover, sun, temperature, sun rise and set, as well as out door activities for Preston, ID">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/weathersitelogo.jpg" alt="Wake up to weather site logo">
+
+        <section>
+            <h1>Wake Up To Weather</h1>
+            <div class="motto">
+                Your guide to outside
+            </div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <section>
+            <p>Hero w/ a weather summary</p>
+        </section>
+        <section>
+            <p>5 Day Forecast</p>
+        </section>
+        <section>
+            <p>Article</p>
+        </section>
+        <section>
+            <p>Contact Information</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2021 Wake Up To Weather | <a href="https://www.byui.edu/online" target="_blank">Attributions</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

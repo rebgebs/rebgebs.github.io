@@ -1,0 +1,17 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+h1 {
+    font-size: 2.5em;
+}
+.motto {
+    font-size: 1.5em;
+}
+header img {
+    width: 75px;
+    height: 75px;
+}
+main section {
+    margin: 1em ;
+}
+} /*end medium */

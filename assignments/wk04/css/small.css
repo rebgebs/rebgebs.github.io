@@ -1,0 +1,106 @@
+
+body {
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1.5;  
+}
+
+
+nav button { 
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+nav {
+    margin: 0 auto;
+	max-width: 760px;
+    font-family: Verdana, sans-serif;
+    background-color: #013c58;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(11, 96, 129, 0.70);
+}
+
+
+
+nav ul li.active a{ background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+nav ul.hide {display: none;}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p, footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+}
+header, footer {
+    background: #a8e8f9;
+    color: #013c58;
+}
+  main section {
+      background-color: lightgray;
+      border: 1px dashed gray;
+      text-align: center;
+  }
+  main section p {
+      padding: .5em;
+  }
+  .headings {
+      display: flex;
+      flex-direction: column;
+  }
+  header {
+      padding: 5px 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  h1 {
+      margin: 0;
+      padding: 0 0 0 5px;
+      font-size: 1.5em;
+  }
+  h2 {
+      text-align: center;
+      color: #f5a201
+      }
+  .motto {
+      padding: 0 0 5px 10px;
+      margin-top: -10px;
+  }
+  footer {
+      border-top:2px solid #013c58;
+      font-size: 1em;
+      text-align: center;
+      padding: 1em;
+  }
