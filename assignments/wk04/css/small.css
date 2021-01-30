@@ -91,8 +91,10 @@ header, footer {
       font-size: 1.5em;
   }
   h2 {
+      font-size: 2em;
       text-align: center;
-      color: #f5a201
+      color: #f5a201;
+      -webkit-text-stroke: .15px #664912;
       }
   .motto {
       padding: 0 0 5px 10px;
