@@ -63,6 +63,9 @@ text-align: justify;
     max-width: 200px;
 
 }
+.personastyle {
+    font-weight: bold;
+}
 img {
     display: block;
     /* margin-left: auto; */
