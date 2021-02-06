@@ -33,7 +33,7 @@ header, footer {
     padding: 1.5rem;
 }
 footer a:visited {
-    color: lightgrey;
+    color: rgb(250, 249, 246);
   }
 
 footer p {
