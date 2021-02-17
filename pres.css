@@ -1,0 +1,17 @@
+main {
+    margin: 20%;
+}
+h1 {
+    margin-bottom:100px;
+}
+p {
+    background: rgb(201, 225, 240);
+    padding: 20px;
+    border: 2px dashed navy;
+    /* border-style: dotted solid double dashed; */
+    border-radius: 30px;
+    box-shadow:10px 10px 30px 2px navy,
+    20px 20px 30px 2px red;
+    ;
+
+}
