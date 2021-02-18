@@ -37,5 +37,8 @@
     .gallerygroup {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }        
+    }     
+    .gallerygroup figure:hover {
+        box-shadow:0px 0px 20px rgb(90, 201, 235);
+    }   
 } /*end large */
