@@ -1,6 +1,6 @@
 
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
 
     nav button { display: none;}
     nav {
@@ -34,5 +34,8 @@
     .contact {
         margin-bottom: 2em;
     }
-            
+    .gallerygroup {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }        
 } /*end large */

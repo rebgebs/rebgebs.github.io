@@ -61,7 +61,7 @@ nav ul.hide {display: none;}
     display: table;
     clear: both;
   }
-  p, footer {
+  p, footer, figcaption{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 header img {
@@ -196,3 +196,42 @@ h3 {
       text-align: center;
       padding: 1em;
   }
+  .gallerygroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: auto;
+}
+
+.gallery{
+    width: 80%;
+    margin: auto;
+   
+}
+.gallerygroup figure {
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
+    transition: filter 4s;
+  }
+  main {
+      margin: 2% 2% 10%;
+  }
+.gallerygroup figure {
+    margin: 1em .5em;
+    
+}
+  .gallerygroup figure img{
+      width: 100%;
+ 
+  }
+.gallerygroup figcaption {
+    font-size: .75em;
+    margin-top: -7px;
+    margin-bottom: 0px;
+    width: 100%;
+    background: white;
+    line-height: 1em;
+    padding: .5em 0em;
+}
+.gallerygroup figure:hover {
+    box-shadow:0px 0px 20px rgb(90, 201, 235);
+}

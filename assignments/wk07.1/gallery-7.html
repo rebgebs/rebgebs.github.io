@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up to weather - Preston weather and activity information</title>
+    <meta name="Wake Up To Weather - Preston, ID"
+        content="Wake up to weather- weather forcast for precipitation, wind, cloud cover, sun, temperature, sun rise and set, as well as out door activities for Preston, ID">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assignments/wk05/css/small.css">
+    <link rel="stylesheet" href="/assignments/wk05/css/medium.css">
+    <link rel="stylesheet" href="/assignments/wk05/css/large.css">
+</head>
+
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. at the city park. </div>
+    <header>
+        <img src="images/weathersitelogo.jpg" alt="Wake up to weather site logo">
+
+        <section>
+            <h1>Wake Up To Weather</h1>
+            <div class="motto">
+                Your guide to outside
+            </div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class='gallerygroup'>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/clouds.jpg" alt="clouds">
+                <figcaption>Billowing couds in a sunset.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/flood.jpg" alt="flood with cows">
+                <figcaption>Cows avoiding a flood.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/grayclouds.jpg" alt="gray clouds">
+                <figcaption>Stormy gray clouds over the plains.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/lightening.jpg"
+                    alt="lightening at night">
+                <figcaption>Lightning illuminating the night sky.</figcaption>
+            </figure>
+            <figure><img class='gallery' src="images/placeholder.jpg" data-src="images/rain.jpg"
+                    alt="rain pouring down">
+                <figcaption>Raining cats and dogs.</figcaption>
+            </figure>
+            <figure><img class='gallery' src="images/placeholder.jpg" data-src="images/reflection.jpg"
+                    alt="clouds reflecting off the water">
+                <figcaption>Clouds reflecting on the water.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/snow.jpg" alt="snow covered trees">
+                <figcaption>Snow covered trees on a crisp day.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/waves.jpg"
+                    alt="waves beating against the shore">
+                <figcaption>Waves crash heavily along shores.</figcaption>
+            </figure>
+            <figure>
+                <img class='gallery' src="images/placeholder.jpg" data-src="images/stars.jpg"
+                    alt="stars in a clear night sky">
+                <figcaption>Clear, crisp, starry night.</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Wake Up To Weather | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/lazy.js" defer></script>
+</body>
+
+</html>
