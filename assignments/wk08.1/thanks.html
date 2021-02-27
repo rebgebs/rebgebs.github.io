@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up to weather - Preston weather and activity information</title>
+    <meta name="Wake Up To Weather - Preston, ID"
+        content="Wake up to weather- weather forcast for precipitation, wind, cloud cover, sun, temperature, sun rise and set, as well as out door activities for Preston, ID">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. at the city park. </div>
+    <header>
+        <img src="images/weathersitelogo.jpg" alt="Wake up to weather site logo">
+
+        <section>
+            <h1>Wake Up To Weather</h1>
+            <div class="motto">
+                Your guide to outside
+            </div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="/assignments/wk06/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="/assignments/wk08.1/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/wk07.1/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="thank">
+            <h2>Thank You!</h2>
+            <p>Your experience has been received. If you are in need of emergency assistance please dial 911
+                immediately.</p>
+        </div>
+        <div class="contact">
+            <img class="map" src="images/map.jpg" alt="map of preston">
+            <div class="address">
+                <p><b>Wake Up To Weather</b></p>
+                <p><a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"
+                        target="_blank"><img src="images/mappin.webp" alt="google maps icon" width="20" /></a> 30 N 1st
+                    E<br> Preston, ID 83263</p>
+                <p>&#9743; 999.999.9999<br> &#9993; wakeuptoweather@wutw.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"
+                            alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp"
+                            alt="twitter icon"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.webp"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Wake Up To Weather | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>

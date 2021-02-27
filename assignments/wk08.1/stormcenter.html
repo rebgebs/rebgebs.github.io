@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up to weather - Preston weather and activity information</title>
+    <meta name="Wake Up To Weather - Preston, ID"
+        content="Wake up to weather- weather forcast for precipitation, wind, cloud cover, sun, temperature, sun rise and set, as well as out door activities for Preston, ID">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. at the city park. </div>
+    <header>
+        <img src="images/weathersitelogo.jpg" alt="Wake up to weather site logo">
+
+        <section>
+            <h1>Wake Up To Weather</h1>
+            <div class="motto">
+                Your guide to outside
+            </div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="/assignments/wk06/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="/assignments/wk08.1/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/wk07.1/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Participant Information</legend>
+                <label class="top">Full Name*<input type="text" name="fullname" pattern="[A-Za-z]{5-30}"
+                        placeholder="John Smith" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code*<input type="number" name="zip" placeholder="99516" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Data</legend>
+                <label class="top">Storm Date<input type="date" name="stormDate"></label>
+
+                <label class="top">Storm Type<input name="type" list="storm"></label>
+                <datalist id="storm">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="tornado">
+                </datalist>
+                <!-- <label class="sbs"><input type="checkbox" name="flood" value="yes">Flash Flood</label>
+                <label class="sbs"><input type="checkbox" name="hail" value="yes">Hail</label>
+                <label class="sbs"><input type="checkbox" name="hurricane" value="yes">Hurricane</label>
+                <label class="sbs"><input type="checkbox" name="thunderstorm" value="yes">Thunderstorm</label>
+                <label class="sbs"><input type="checkbox" name="tornado" value="yes">Tornado</label> -->
+                <div>Storm Severity</div>
+                <label class="flexly"><input type="range" name="severity" value="5" min="1" max="10" step="1"
+                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+                <label class="top">Storm Region
+                    <select name="region">
+                        <option value="" disabled selected>Select Region</option>
+                        <option value="fishhaven">Fish Haven</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                    </select></label>
+                <div>Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="top"><textarea id="comments" name="comments" rows="4" cols="50"
+                        placeholder="I saw a cow fly through the air..."></textarea></label>
+
+            </fieldset>
+
+            <input type="submit" value="Contribute My Experience" class="submitBtn">
+
+
+
+        </form>
+        <div class="contact">
+            <img class="map" src="images/map.jpg" alt="map of preston">
+            <div class="address">
+                <p><b>Wake Up To Weather</b></p>
+                <p><a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"
+                        target="_blank"><img src="images/mappin.webp" alt="google maps icon" width="20" /></a> 30 N 1st
+                    E<br> Preston, ID 83263</p>
+                <p>&#9743; 999.999.9999<br> &#9993; wakeuptoweather@wutw.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"
+                            alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp"
+                            alt="twitter icon"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.webp"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Wake Up To Weather | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/severity.js"></script>
+</body>
+
+</html>
