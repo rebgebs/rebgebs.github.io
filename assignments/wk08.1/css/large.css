@@ -39,4 +39,8 @@
 form label.sbs {
     padding: .4rem 0;
 }
+form fieldset {
+    max-width: 60%;
+    margin: 2em auto;
+}
 } /*end large */

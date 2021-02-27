@@ -224,13 +224,16 @@ form {
         font-family: Verdana, sans-serif;
         padding: 0 2%;
         min-height: 20rem;
+
 }
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid rgba(11, 96, 129, 0.70);
+    border: 1px dotted rgba(11, 96, 129, 0.70);
     border-radius: 10px;
     padding: .5rem 2%;
     text-align: left;
+    box-shadow: 5px 5px 5px rgb(248, 167, 5);
+    background-color: rgba(199, 236, 243, 0.315);
 }
 form legend {
     color: #013c58;
@@ -240,8 +243,11 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #7a5201;
     font-size: .8rem;
+}
+form label.top div {
+    padding-top: 0em;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
@@ -251,7 +257,7 @@ form label.top input, form label.top select {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+    width: 80%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -262,9 +268,9 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color:  #9c2c13;
+    background-color:  #7a5201;
     color: white;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
@@ -272,6 +278,9 @@ form input.submitBtn {
 }
 .submitBtn {
     text-align: center;
+}
+.submitBtn:hover {
+    box-shadow: .5em .5em .5em rgba(11, 96, 129, 0.70);
 }
 
 form label.top input:required {

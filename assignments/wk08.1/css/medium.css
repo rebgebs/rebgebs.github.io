@@ -38,4 +38,8 @@ table {
         max-width: 250px;
 
 }
+form fieldset {
+    max-width: 80%;
+    margin: 2em auto;
+}
 } /*end medium */
