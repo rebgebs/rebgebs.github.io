@@ -50,7 +50,7 @@
         padding: 0em;
     }
       .cards section:nth-child(odd) {
-        flex-direction: block;
+        flex-direction: row-reverse;
       } 
       
 } /*end large */
