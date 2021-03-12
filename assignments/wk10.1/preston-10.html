@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up to weather - Preston weather and activity information</title>
+    <meta name="Wake Up To Weather - Preston, ID"
+        content="Wake up to weather- weather forcast for precipitation, wind, cloud cover, sun, temperature, sun rise and set, as well as out door activities for Preston, ID">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. at the city park. </div>
+    <header>
+        <img src="images/weathersitelogo.jpg" alt="Wake up to weather site logo">
+
+        <section>
+            <h1>Wake Up To Weather</h1>
+            <div class="motto">
+                Your guide to outside
+            </div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/assignments/wk09.1/index.html">Home</a></li>
+            <li class="active"><a href="/assignments/wk06/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/assignments/wk08.1/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/wk07.1/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <figure class="hero">
+            <picture class="heroimg">
+                <source media="(max-width:400px)" srcset="images/town.jpg">
+                <source media="(max-width:600px)" srcset="images/town.jpg">
+                <source media="(max-width:2000px)" srcset="images/town.jpg">
+
+                <img src="images/town.jpg" alt="Aerial view of th neighborhood">
+
+            </picture>
+            <div class="overlay">
+                <h3>Weather Summary</h3>
+                <div class="summary">
+                    <ul class="category">
+                        <li>Currently:</li>
+                        <li>Current Temp:</li>
+                        <li>Wind Chill:</li>
+                        <li>Humidity:</li>
+                        <li>Wind Speed:</li>
+                    </ul>
+                    <ul class="value">
+                        <li><span id="current"></span></li>
+                        <li><span id="current-temp"></span> &#176;F</li>
+                        <li><span id="chill"></span> &#176;F</li>
+                        <li><span id="humidity"></span>%</li>
+                        <li><span id="wind"></span> mph</li>
+                    </ul>
+                </div>
+            </div>
+        </figure>
+        <div>
+            <h2 class="ttitle">5-Day Forecast</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="dayofweek1"></th>
+                        <th id="dayofweek2"></th>
+                        <th id="dayofweek3"></th>
+                        <th id="dayofweek4"></th>
+                        <th id="dayofweek5"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="/images/sun.jpg" id="ficon1" alt="">
+                            <p><span id="forecast1"></span>&#176; F</p>
+                        </td>
+                        <td><img src="/images/sun.jpg" id="ficon2" alt="">
+                            <p><span id="forecast2"></span>&#176; F</p>
+                        </td>
+                        <td><img src="/images/sun.jpg" id="ficon3" alt="">
+                            <p><span id="forecast3"></span>&#176; F</p>
+                        </td>
+                        <td><img src="/images/sun.jpg" id="ficon4" alt="">
+                            <p><span id="forecast4"></span>&#176; F</p>
+                        </td>
+                        <td><img src="/images/sun.jpg" id="ficon5" alt="">
+                            <p><span id="forecast5"></span>&#176; F</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <section class="article">
+            <h2 id="title">Voted best bakery in town!</h2>
+            <h3>By Lisa Presley</h3>
+            <div>
+                <img id="picnic" src="images/picnic.jpg" alt="Bakery food on picnic blanket">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magni velit possimus
+                    natus
+                    repellendus ipsum molestias, aliquam voluptatem nam explicabo sint at consectetur nisi
+                    deleniti non
+                    ipsa
+                    eum necessitatibus neque dolorem! Enim consequuntur eligendi laboriosam, fuga sint tempore
+                    eos at
+                    officia ipsum alias nobis cupiditate aliquam aperiam provident neque maxime. Ipsum officiis
+                    assumenda
+                    commodi rerum! Laboriosam libero incidunt pariatur totam? Ipsa qui consequuntur temporibus
+                    obcaecati,
+                    ratione magnam! Impedit qui cupiditate eius atque laudantium, non corporis odio ullam sunt
+                    natus! In
+                    eveniet sit voluptatibus nemo distinctio vitae culpa, adipisci atque quos recusandae debitis
+                    inventore
+                    error eius consequuntur porro. Quisquam quas beatae soluta praesentium temporibus cumque,
+                    necessitatibus
+                    tempora atque voluptates, rerum ipsa earum quos? Eius impedit unde fuga nostrum harum vel
+                    laudantium,
+                    accusamus placeat, necessitatibus quis sapiente mollitia ipsum nam quisquam animi eveniet
+                    perferendis
+                    veritatis nesciunt eligendi reprehenderit nisi error sed corporis praesentium? Ipsa
+                    molestiae fugiat
+                    nam
+                    voluptas eveniet. Cumque dicta, quibusdam doloremque incidunt quae voluptate tenetur
+                    architecto
+                    itaque?
+                    Repudiandae alias saepe aliquid, aliquam enim quos obcaecati earum accusamus deleniti.
+                    Ullam,
+                    perferendis ducimus eaque, asperiores quidem ex, temporibus eveniet dignissimos odit autem
+                    aliquam.
+                    Aspernatur ab eligendi omnis eum cumque modi ea dolor, ipsa fuga id perferendis consequuntur
+                    debitis
+                    rem
+                    harum corporis deleniti recusandae culpa consequatur! Aperiam tempore vel debitis, minima
+                    accusantium
+                    architecto at? Accusamus ratione natus dolorem aspernatur obcaecati, adipisci libero
+                    doloremque
+                    repellendus. Debitis et consectetur accusamus voluptatem dolores eligendi numquam itaque
+                    non? Eaque
+                    excepturi eum, ipsum enim vero iste modi aut beatae quo, autem accusantium ipsa cumque quae?
+                    Mollitia
+                    eveniet impedit similique nulla iusto temporibus odio facere reprehenderit est soluta
+                    cupiditate
+                    deserunt harum enim hic ad praesentium quae ea magnam debitis, autem consequatur perferendis
+                    aliquam
+                    vitae dolor. Quaerat atque, eos quae obcaecati sunt, neque veniam aliquid asperiores eveniet
+                    distinctio
+                    aspernatur. Officiis dolorum qui nobis cumque sunt voluptatem eius voluptas sint ab!</p>
+            </div>
+        </section>
+        <div class="contact">
+            <img class="map" src="images/map.jpg" alt="map of preston">
+            <div class="address">
+                <p><b>Wake Up To Weather</b></p>
+                <p><a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"
+                        target="_blank"><img src="images/mappin.webp" alt="google maps icon" width="20" /></a> 30 N 1st
+                    E<br> Preston, ID 83263</p>
+                <p>&#9743; 999.999.9999<br> &#9993; wakeuptoweather@wutw.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"
+                            alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp"
+                            alt="twitter icon"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.webp"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Wake Up To Weather | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> | <a
+            href="https://api.openweathermap.org/" target="_blank">Source - OpenWeatherMap</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecastapi.js"></script>
+
+</body>
+
+</html>
