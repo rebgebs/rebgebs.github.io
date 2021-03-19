@@ -27,6 +27,7 @@ fetch(apiURL)
         document.getElementById('wind').innerHTML = jsObject.wind.speed;
         document.getElementById('humidity').innerHTML = jsObject.main.humidity;
         document.getElementById("chill").innerHTML = windchill();
+
     });
 
 

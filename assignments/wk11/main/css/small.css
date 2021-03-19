@@ -82,7 +82,8 @@ figure {
 }
 .hero img{
     width: 100%;
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+
 .overlay {
     top: 20px;
     left: 20px;
@@ -125,8 +126,8 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-}
-thead {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    thead {
     width: 20%;
 }
 
@@ -176,7 +177,7 @@ h3 {
 }
   #picnic {
       max-width: 100%;
-  }
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
   .article {
       text-align: justify;
       padding: 1em;
@@ -185,6 +186,8 @@ h3 {
   }
  .map {
      max-width: 100%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
  }
   .contact{
     max-width: 100%;
@@ -212,15 +215,18 @@ h3 {
     display: block;
     grid-template-columns: 1fr;
     width: 100%;
+
     /* margin: 2%; */
 }
 .cards img {
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
 }
 .cards section {
     background-color: rgba(170, 231, 233, 0.664);
     border: 1px solid black;
-    margin: 2px;
+    margin: 2em 2px;
     text-align: center;
     padding: 12px;
 }

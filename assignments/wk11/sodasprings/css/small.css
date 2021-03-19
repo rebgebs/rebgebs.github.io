@@ -82,16 +82,14 @@ figure {
 }
 .hero img{
     width: 100%;
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}   
 .overlay {
     top: 20px;
     left: 20px;
     background: rgba(1, 60, 88, .8);
     border: 1px solid black;
     padding: 1rem 2rem;
-    box-shadow: 0 0 30px #111;
-
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 .hero div h3 {
     color: white;
     padding-bottom: 1em;
@@ -125,7 +123,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 thead {
     width: 20%;
 }
@@ -174,9 +172,20 @@ h3 {
     padding: 0 0 5px 10px;
     margin-top: -10px;
 }
+.upcomming {
+    background: #f3e88288;
+    border: 4px solid #013c58;
+    margin: 5% 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.upcomming h2 {
+    margin: 0em 4em;
+    border-bottom: 4px double #013c58;
+}
+
   #picnic {
       max-width: 100%;
-  }
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  }
   .article {
       text-align: justify;
       padding: 1em;
@@ -185,8 +194,8 @@ h3 {
   }
  .map {
      max-width: 100%;
- }
-  .contact{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+ .contact{
     max-width: 100%;
     display: block;
     background: rgba(248, 167, 5, 0.582);
@@ -194,6 +203,7 @@ h3 {
   }
   .social a img{
       width: 30px;
+      
   }
   .address p a img {
       width: 30px;
