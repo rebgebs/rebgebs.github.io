@@ -98,7 +98,7 @@ h1 {
     color: #2ea5917e;
 }
 h2 {
-    color: #d7895a;
+    color: #a0613a;
     
 }
 .adverts {
@@ -146,7 +146,7 @@ h2 {
 }
 .dayname {
     font-size: 2.5em;
-    color: #d7895a;
+    color: #a0613a;
 }
 .ttitle {
     display: block;
@@ -217,4 +217,5 @@ header, .contact {
 footer {
     background-color: #9d916c;
     padding: 1em;
+    color: white;
 }
