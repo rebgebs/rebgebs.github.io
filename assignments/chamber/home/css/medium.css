@@ -13,10 +13,8 @@
     .adverts div{
         margin: auto;
         /* height: 150px; */
-        padding: auto;
+        /* padding: auto; */
     
     }
-    .adverts div img{
-        padding: auto;
-    }
+ 
 }
