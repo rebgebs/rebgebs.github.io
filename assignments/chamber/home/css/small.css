@@ -219,3 +219,6 @@ footer {
     padding: 1em;
     color: white;
 }
+footer a:visited {
+    color: rgb(250, 249, 246);
+  }
