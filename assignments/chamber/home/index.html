@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folsom Chamber of Commerce</title>
+    <meta name="Folsom Chamber of Commerce - Home"
+        content="Folsom Chamber of Commerce, support for local businesses and networking">
+    <link rel="shortcut icon" href="favicon1.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/folsomchamberlogo.png" alt="Folsom Chamber of Commerce site logo">
+
+        <section>
+            <!-- <h1>Folsom Chamber of Commerce</h1> -->
+            <h1 class="motto">
+                #FolsomStrongerTogether
+            </h1>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="/assignments/chamber/home/">Home</a></li>
+            <li><a href="/assignments/chamber/city/">Folsom</a></li>
+            <li><a href="/assignments/chamber/join/">Join</a></li>
+            <li><a href="/assignments/chamber/directory/">Directory</a></li>
+            <li><a href="/assignments/chamber/contact/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <figure class="hero">
+            <picture class="heroimg">
+                <source media="(max-width:190px)" srcset="images/folsompic200.jpg">
+                <source media="(max-width:390px)" srcset="images/folsompic400.jpg">
+                <source media="(max-width:690px)" srcset="images/folsompic700.jpg">
+
+                <img src="images/folsompic.jpg" alt="Folsom Rainbow Bridge over Lake Natoma">
+
+            </picture>
+            <div class="overlay"><a href="/assignments/chamber/join/join.html">
+                    <h2>
+                        Click Here<br>To Join!
+
+                    </h2>
+                </a>
+
+            </div>
+        </figure>
+        <section class="adverts">
+            <div class="ad1"><a href="https://www.folsomchamber.com" target="_blank"><img src="images/folsomlocal.png"
+                        id="my-img1" alt="Folsom. Spend, Eat, Be local"></a>
+            </div>
+            <div class="ad2"><a href="https://www.intel.com" target="_blank"><img src="images/intel.png" id="my-img2"
+                        alt="Intel Corp Logo"></a></div>
+            <div class="ad3"><a href="https://www.folsomranch.com" target="_blank"><img src="images/folsomranch.png"
+                        id="my-img3" alt="Folsom Ranch Logo"></a></div>
+            <div class="ad4"><a href="https://www.historicfolsom.org" target="_blank"><img
+                        src="images/historicfolsomlogo.jpg" id="my-img4" alt="Historic Folsom Logo"></a></div>
+            <!-- <div class="ad5"><a href="https://www.hopsingpalace.com/index.html" target="_blank"><img
+                        src="images/hopsing.jpg" id="my-img5" alt="Hop Sing Palace Logo"></a></div> -->
+            <div class="ad6"><a href="https://www.mystiquedining.com" target="_blank"><img src="images/mysticlogo.jpg"
+                        id="my-img6" alt="Mystic Dining Logo"></a></div>
+            <div class="ad7"><a href="https://www.gopalladio.com" target="_blank"><img src="images/Palladio.png"
+                        id="my-img7" alt="Palladio Logo"></a></div>
+        </section>
+        <h2 class="info">
+            The Folsom Chamber is committed to continuing its efforts to strongly represent the needs of our business
+            community.
+        </h2>
+        <section class="upcomming">
+            <h2>Upcomming Events:</h2>
+            <p>March 27: Drive Through Easter Bunny Photos </p>
+            <p>April 07: First-time Homebuyers WEBINAR </p>
+            <p>April 09: Dont Let Your Budget Fool You- Workshop </p>
+            <p>April 13: CHAMBER ribbon cutting- Anytime Fitness </p>
+            <p>April 27: CHAMBER Highway 50 Corridor Power Lunch </p>
+
+            <div class="cards"></div>
+        </section>
+        <div class="weather">
+            <div class="today">
+                <h1>Today's Weather</h1>
+                <h2 class="dayname" id="dayofweek1">day</h2>
+                <img src="images/placeholder.jpg" id="ficon1" alt="">
+                <p><span id="desc1"></span></p>
+                <p><span id="hum1"></span></p>
+                <p><span class="temp" id="forecast1"></span>&#176; F</p>
+
+            </div>
+            <div class="forecast">
+                <h1 class="ttitle">3-Day Forecast</h1>
+
+                <table>
+                    <thead>
+                        <tr>
+
+                            <th class="dayname" id="dayofweek2">day</th>
+                            <th class="dayname" id="dayofweek3">day</th>
+                            <th class="dayname" id="dayofweek4">day</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td><img src="images/placeholder.jpg" id="ficon2" alt="">
+                                <p><span id="desc2"></span></p>
+                                <p><span id="hum2"></span></p>
+                                <p><span class="temp" id="forecast2"></span>&#176; F</p>
+
+                            </td>
+                            <td><img src="images/placeholder.jpg" id="ficon3" alt="">
+                                <p><span id="desc3"></span></p>
+                                <p><span id="hum3"></span></p>
+                                <p><span class="temp" id="forecast3"></span>&#176; F</p>
+                            </td>
+                            <td><img src="images/placeholder.jpg" id="ficon4" alt="">
+                                <p><span id="desc4"></span></p>
+                                <p><span id="hum4"></span></p>
+                                <p><span class="temp" id="forecast4"></span>&#176; F</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="address">
+                <p><b>Folsom Chamber of Commerce</b></p>
+                <p><a href="https://www.google.com/maps/place/200+Wool+St,+Folsom,+CA+95630/@38.67722,-121.1785628,17z/data=!3m1!4b1!4m5!3m4!1s0x809ae6acebcf0f67:0x5ec933c07575a03f!8m2!3d38.67722!4d-121.1785628"
+                        target="_blank"><img src="images/mappin.webp" alt="google maps icon" width="20" /></a>200 Wool
+                    Street<br> Folsom,
+                    CA 95630</p>
+                <p>&#9743; (916) 985-2698<br> &#9993; info@folsomchamber.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"
+                            alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp"
+                            alt="twitter icon"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.webp"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Folsom Chamber of Commerce | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/forecastapi.js"></script>
+    <script src="js/date.js"></script>
+</body>
+
+</html>
