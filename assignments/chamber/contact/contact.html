@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folsom Chamber of Commerce</title>
+    <meta name="Folsom Chamber of Commerce - Home"
+        content="Folsom Chamber of Commerce, support for local businesses and networking">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/folsomchamberlogo.png" alt="Folsom Chamber of Commerce site logo">
+
+        <h1 class="motto">
+            #FolsomStrongerTogether
+        </h1>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/assignments/chamber/home/index.html">Home</a></li>
+            <li><a href="/assignments/chamber/city/city.html">Folsom</a></li>
+            <li><a href="/assignments/chamber/join/join.html">Join</a></li>
+            <li><a href="/assignments/chamber/directory/directory.html">Directory</a></li>
+            <li class="active"><a href="/assignments/chamber/contact/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</p>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Full Name:*<input type="text" name="fullname" pattern="[A-Za-z]{5-30}"
+                            placeholder="John Smith" required></label>
+                    <label class="top">Email:*<input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top">Cell Phone:<input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Comments:<textarea id="comments" name="comments" rows="4" cols="50"
+                            placeholder="Type your comments here..."></textarea>
+                </fieldset>
+
+                <input type="submit" value="Send Comment" class="submitBtn">
+
+
+
+            </form>
+        </div>
+        <div id="info">
+            <h1>Meet Our Board</h1>
+            <h2>Executive Committee 2020-2021</h2>
+            <ul>
+                <li>Terry Carroll - Chairperson<br>Style Media Group</li>
+                <li>Shaina DiMariano - 1st Vice Chair<br>DiMariano Family Dentistry</li>
+                <li>Steve Heard - 2nd Vice Chair<br>EXP Realty</li>
+                <li>Mike LaFortune - Secretary<br>Easton Development</li>
+                <li>Heidi Harman - Past Chair<br>Walmart</li>
+                <li>Debbie Hurst - Treasurer<br>Deborah L. Hurst Acct & Consulting</li>
+            </ul>
+            <h2>Board of Directors 2020-2021</h2>
+            <ul>
+                <li>Mark Bahouth - Micron</li>
+                <li>Anna Ballard - Intel Corporation</li>
+                <li>Augustine Chavez - Folsom Lake College</li>
+                <li>Anne Descalzo - CLUTCH Contracts</li>
+                <li>Alexis Fitzpatrick - SAFE Credit Union</li>
+                <li>Richard Florio - Kaiser Permanante</li>
+                <li>Jim Snook - Snook's Candies & Chocolatier</li>
+                <li>Marshal Crossan - Folsom Chevrolet</li>
+                <li>Gloria Wright - Palladio at Broadstone</li>
+
+            </ul>
+        </div>
+        <iframe class="weather"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d99687.97654934911!2d-121.14390784999996!3d38.66613905000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1617054920929!5m2!1sen!2sus"
+            width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contact">
+            <div class="address">
+                <p><b>Folsom Chamber of Commerce</b></p>
+                <p><a href="https://www.google.com/maps/place/200+Wool+St,+Folsom,+CA+95630/@38.67722,-121.1785628,17z/data=!3m1!4b1!4m5!3m4!1s0x809ae6acebcf0f67:0x5ec933c07575a03f!8m2!3d38.67722!4d-121.1785628"
+                        target="_blank"><img src="images/mappin.webp" alt="google maps icon" width="20" /></a>200 Wool
+                    Street<br> Folsom,
+                    CA 95630</p>
+                <p>&#9743; (916) 985-2698<br> &#9993; info@folsomchamber.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"
+                            alt="facebook icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.webp"
+                            alt="twitter icon"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.webp"
+                            alt="pinterest icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2021 Folsom Chamber of Commerce | <a href="https://www.byui.edu/online" target="_blank">BYUI Online</a> |
+        Rebecca Gebs<br>
+        <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/forecastapi.js"></script>
+    <script src="js/date.js"></script>
+</body>
+
+</html>

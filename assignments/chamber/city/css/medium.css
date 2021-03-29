@@ -1,0 +1,16 @@
+@media only screen and (min-width: 460px) {
+
+    .motto {
+        font-size: 2em;
+    }
+    #folsom {
+        max-height: 400px;
+        float: right;
+        margin: 0em .75em 1em 2em;
+    }
+    #folsom1 {
+        max-height: 400px;
+        float: left;
+        margin: 0em 2em 1em .75em;
+    }
+}

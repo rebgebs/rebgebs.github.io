@@ -64,131 +64,73 @@ body {
     line-height: 1.5;  
     text-align: center;
 }
-.content{
-    margin: 2em;
+.dem{
+    margin: 5% 10%;
 }
+
 h1 {
     color: #2ea5917e;
 }
 h2 {
     color: #d7895a;   
 }
-h2, p {
+p {
     text-align: left;
-}
-p, footer, .overlay{
     color: #2d385f;
     font-family: 'Montserrat', sans-serif;
 }
-header, .contact {
+header, .address {
     background-color: #2ea5917e ;
     padding: 1em;
     border-top:3px solid #2ea5917e;
     border-bottom:3px solid #2ea5917e;
+    text-align: center;
 }
-footer {
+.address p {
+    text-align: center;
+}
+footer{
     background-color: #9d916c;
     padding: 1em;
-}
-form {
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;  
-    padding: 0 2%;
-    min-height: 20rem;
+    text-align: center;
+    color: #2d385f;
 
 }
-form fieldset {
-margin: 2rem 0;
-border: 3px solid #2d385f;
-border-radius: 20px;
-padding: .5rem 2%;
-text-align: left;
-box-shadow: 5px 5px 5px rgba(11, 96, 129, 0.20);
-background-color: rgba(199, 236, 243, 0.315);
+#folsom{
+    max-width: 40%;
 }
-form legend {
-color: #013c58;
-margin: 0 1rem;
-padding: 0 .5rem;
-}
-form label.top, form div {
-display: block;
-padding-top: 1rem;
-color: #2d385f;
-font-size: .8rem;
-}
-form label.top div {
-padding-top: 0em;
-}
-form label.top input, form label.top textarea {
--webkit-appearance: none;
-display: block;
-font-size: 1rem;
-border: solid 1px #999;
-border-radius: 4px;
-padding: .75rem;
-color: #555;
-width: 80%;
-max-width: 20rem;
-background-color: rgba(0, 0, 0, 0.1);
-}
-form label.sbs {
-display: block;
-padding: .75em 0em;
-color: #2d385f;
-}
-form input.submitBtn {
-border: none;
-background-color:  #2d385f;
-color: white;
-border-radius: .5rem;
-padding: .75rem 1.5rem;
-margin: 0 0 2rem 2%;
-width: 96%;
-max-width: 20rem;
-}
-.submitBtn {
-text-align: center;
-}
-.submitBtn:hover {
-box-shadow: 0 0 .5em .25em #48ffe19f;
-}
+#folsom1{
+    max-width: 20%;
 
-form label.top input:required {
-border-left: #d7895a solid 6px;
 }
-form label.top input:required:valid {
-border-left: #52dac3ec solid 6px;
+#folsom, #folsom1 {
+    border: 3px solid #2d385f;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.thanks {
-margin: 2em;
-}
-#info {
+.article {
     border: 3px solid #2ea5917e;
-    margin: 2.5em;
-    padding: 2em;
+    margin: 1em;
+    padding: 1em;
     background-color: #dafff8f1;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #2d385f;
+
 }
-#info h1 {
-    color: #013c58;
-    text-align: center;
-}
-#info h2 {
-    text-align: center;
-}
-#info li{
+.article li {
     text-align: left;
 }
-.address p{
+.article h2, .article h3 {
     text-align: center;
 }
-.weather {
-    border: 3px solid #2d385f;
+.upcomming {
+    border: 3px solid #d7895a;
     margin: 1em;
     padding: 1em;
-    background-color: #e1f4ff;
+    background-color: #fff2ea;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #2d385f;
+
 }
