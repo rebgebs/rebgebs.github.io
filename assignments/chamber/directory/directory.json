@@ -1,0 +1,53 @@
+{
+    "directory": [
+        {
+            "business": "Intel Corporation",
+            "address": "1900 Prairie City Rd",
+            "phone": "(916) 356-8080",
+            "web": "https://intel.com",
+            "logo": "images/intel.png"
+        },
+        {
+            "business": "Folsom Ranch",
+            "address": "E. Bidwell, South of 50",
+            "phone": "(916) 461-6000",
+            "web": "https://folsomranch.com",
+            "logo": "images/folsomranch.png"
+        },
+        {
+            "business": "Historic Folsom District",
+            "address": "915 Sutter St, Suite 110",
+            "phone": "(916) 985-7452",
+            "web": "https://historicfolsom.org",
+            "logo": "images/historicfolsomlogo.jpg"
+        },
+        {
+            "business": "Mystique Dining",
+            "address": "611 Sutter St.",
+            "phone": "(916) 293-9000",
+            "web": "https://mystiquedining.com",
+            "logo": "images/mysticlogo.jpg"
+        },
+        {
+            "business": "Palladio",
+            "address": "410 Palladio Pkwy, Suite 1601",
+            "phone": "(916) 542-7408",
+            "web": "https://gopalladio.com",
+            "logo": "images/Palladio.png"
+        },
+        {
+            "business": "Hop Sing Pallace",
+            "address": "805 Sutter St.",
+            "phone": "(916) 985-7309",
+            "web": "https://hopsingpalace.com",
+            "logo": "images/hopsing.jpg"
+        },
+        {
+            "business": "Petra Greek",
+            "address": "230 Palladio Pkwy #1213",
+            "phone": "(916) 693-6397",
+            "web": "https://petragreek.com",
+            "logo": "images/petralogo.png"
+        }
+    ]
+}
