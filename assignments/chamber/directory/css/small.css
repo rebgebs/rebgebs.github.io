@@ -3,7 +3,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: white;
+    color: #ffffff;
 }
 nav {
     margin: 0 auto;
@@ -86,19 +86,20 @@ footer {
     padding: 1em;
 }
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* width: 100%; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* width: 80%; */
+    margin: 2em;
 }
 section {
     background-color: #d5defdb9;
     border: 3px solid #2d385f;
     border-radius: 20px;
-    margin: 1em;
+    margin: 5%;
     text-align: center;
     padding: 10%;
     box-shadow: 5px 5px 5px #65ada7a2;
-
+max-width: 50% auto;
 }
 section p {
     font-size: 10px;
@@ -108,7 +109,36 @@ section img {
     max-height: 150px;
     max-width: 250px;
     padding-top: 1em;
+    max-width: 100%;
   }
   section h2, h1 {
       color: rgb(17, 61, 63);
   }
+
+  .myClass1{
+display:block;
+  }
+  .myClass2{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .btns #list, .btns #grid {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:3em 1em 0em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#b66d40;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    .btns #grid:hover{
+    background-color:#3c9c94;
+    }
+    .btns #list:hover{
+        background-color:#3c9c94;
+        }
+  
