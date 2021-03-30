@@ -1,4 +1,4 @@
-const requestURL = 'https://rebgebs.github.io/assignments/chamber/directory/js/dir.json';
+const requestURL = 'https://rebgebs.github.io/assignments/chamber/directory/dir.json';
 
 fetch(requestURL)
 

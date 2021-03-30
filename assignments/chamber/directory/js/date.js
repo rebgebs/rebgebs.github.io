@@ -29,9 +29,3 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 
-// let thedate = new Date();
-// thedate.getDay()
-var banner = document.getElementById("banner")
-if (new Date().getDay() != 5) {
-    banner.style.display = "none";
-}
