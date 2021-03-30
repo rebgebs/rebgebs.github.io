@@ -1,4 +1,4 @@
-const requestURL = 'https://rebgebs.github.io/assignments/chamber/directory/dir.json';
+const requestURL = 'https://rebgebs.github.io/assignments/chamber/directory/directory.json';
 
 fetch(requestURL)
 
@@ -15,7 +15,7 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             h2.innerHTML = `${bus.business}`;
-            p.innerHTML = `Address: ${bus.birthdate} <br> Phone Number: ${bus.birthplace} <br> ${bus.web}`;
+            p.innerHTML = `Address: ${bus.address} <br> Phone Number: ${bus.phone} <br> ${bus.web}`;
             image.setAttribute("src", bus.logo);
             image.setAttribute('alt', `${bus.business}`)
 

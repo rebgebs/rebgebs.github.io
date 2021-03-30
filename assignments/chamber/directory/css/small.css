@@ -82,5 +82,33 @@ header, .contact {
 }
 footer {
     background-color: #9d916c;
+    color: white;
     padding: 1em;
 }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 100%; */
+}
+section {
+    background-color: #d5defdb9;
+    border: 3px solid #2d385f;
+    border-radius: 20px;
+    margin: 1em;
+    text-align: center;
+    padding: 10%;
+    box-shadow: 5px 5px 5px #65ada7a2;
+
+}
+section p {
+    font-size: 10px;
+}
+
+section img {
+    max-height: 150px;
+    max-width: 250px;
+    padding-top: 1em;
+  }
+  section h2, h1 {
+      color: rgb(17, 61, 63);
+  }
