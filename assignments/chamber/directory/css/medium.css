@@ -3,20 +3,5 @@
     .motto {
         font-size: 2em;
     }
-    .overlay {
-        position: absolute;
-    }
-    .adverts {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .adverts div{
-        margin: auto;
-        /* height: 150px; */
-        padding: auto;
-    
-    }
-    .adverts div img{
-        padding: auto;
-    }
+   
 }

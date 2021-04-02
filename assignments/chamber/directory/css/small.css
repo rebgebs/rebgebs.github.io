@@ -99,7 +99,7 @@ section {
     text-align: center;
     padding: 10%;
     box-shadow: 5px 5px 5px #65ada7a2;
-max-width: 50% auto;
+/* max-width: 50% auto; */
 }
 section p {
     font-size: 10px;
