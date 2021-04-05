@@ -141,4 +141,12 @@ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     .btns #list:hover{
         background-color:#3c9c94;
         }
-  
+ footer {
+            background-color: #756c4f;
+            padding: 1em;
+            text-align: center;
+            color: white;
+        }
+ footer a:visited {
+            color: rgb(250, 249, 246);
+          }

@@ -166,3 +166,12 @@ form label.top input:required:valid {
 .thanks {
     margin: 2em;
 }
+footer {
+    background-color: #756c4f;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+footer a:visited {
+    color: rgb(250, 249, 246);
+  }

@@ -192,3 +192,12 @@ margin: 2em;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+footer {
+    background-color: #756c4f;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+footer a:visited {
+    color: rgb(250, 249, 246);
+  }

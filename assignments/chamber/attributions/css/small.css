@@ -64,9 +64,7 @@ body {
     line-height: 1.5;  
     text-align: center;
 }
-.dem{
-    margin: 5% 10%;
-}
+
 
 h1 {
     color: #2ea5917e;
@@ -89,51 +87,7 @@ header, .address {
 .address p {
     text-align: center;
 }
-footer{
-    background-color: #9d916c;
-    padding: 1em;
-    text-align: center;
-    color: #2d385f;
 
-}
-#folsom{
-    max-width: 40%;
-}
-#folsom1{
-    max-width: 20%;
-
-}
-#folsom, #folsom1 {
-    border: 3px solid #2d385f;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.article {
-    border: 3px solid #2ea5917e;
-    margin: 1em;
-    padding: 1em;
-    background-color: #dafff8f1;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #2d385f;
-
-}
-.article li {
-    text-align: left;
-}
-.article h2, .article h3 {
-    text-align: center;
-}
-.upcomming {
-    border: 3px solid #d7895a;
-    margin: 1em;
-    padding: 1em;
-    background-color: #fff2ea;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #2d385f;
-
-}
 footer {
     background-color: #756c4f;
     padding: 1em;
