@@ -204,7 +204,7 @@ td img {
 .upcomming p {
     text-align: left;
 }
-p, footer, .overlay{
+p, .overlay{
     color: #2d385f;
     font-family: 'Montserrat', sans-serif;
 }
