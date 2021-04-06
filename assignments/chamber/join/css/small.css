@@ -169,6 +169,7 @@ form label.top input:required:valid {
 footer {
     background-color: #756c4f;
     padding: 1em;
+    font-size: 19px;
     text-align: center;
     color: white;
 }
