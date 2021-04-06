@@ -76,7 +76,7 @@ h2 {
 h2, p {
     text-align: left;
 }
-p, .overlay{
+p, footer, .overlay{
     color: #2d385f;
     font-family: 'Montserrat', sans-serif;
 }
@@ -199,8 +199,5 @@ footer {
     color: white;
 }
 footer a:visited {
-    color: rgb(212, 247, 238);
+    color: rgb(212, 247, 238) !important;
   }
-footer a[style] {
-    display: inline !important;
-} 
