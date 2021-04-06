@@ -195,12 +195,10 @@ margin: 2em;
 footer {
     background-color: #756c4f;
     padding: 1em;
+    font-size: 19px;
     text-align: center;
     color: white;
 }
 footer a:visited {
-    color: rgb(212, 247, 238);
+    color: rgb(212, 247, 238) im !important;
   }
-footer a[style] {
-    display: inline !important;
-} 
