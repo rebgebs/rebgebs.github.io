@@ -71,12 +71,12 @@ h1 {
     color: #2ea5917e;
 }
 h2 {
-    color: #d7895a;   
+    color: #a56f4d;   
 }
 h2, p {
     text-align: left;
 }
-p, footer, .overlay{
+p, .overlay{
     color: #2d385f;
     font-family: 'Montserrat', sans-serif;
 }
